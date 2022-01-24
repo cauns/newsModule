@@ -1,5 +1,5 @@
 {
-    "name": "Modules/News-module",
+    "name": "cauns/News-module",
     "description": "This is module news version demo",
     "type": "laravel-module",
     "authors": [
