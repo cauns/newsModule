@@ -1,5 +1,5 @@
 {
-    "name": "cauns/news",
+    "name": "Modules/News-module",
     "description": "This is module news version demo",
     "type": "laravel-module",
     "authors": [
@@ -14,8 +14,8 @@
             "aliases": {
 
             }
-        },
-        "module-dir": "Modules"
+        }
+       
     },
     "autoload": {
         "psr-4": {
@@ -23,6 +23,6 @@
         }
     },
     "require": {
-        "joshbrw/laravel-module-installer": "^2.0"
+        
     }
 }
