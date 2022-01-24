@@ -1,0 +1,27 @@
+{
+    "name": "cauns/news",
+    "description": "This is module news version demo",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "Nguyen Sinh Cau",
+            "email": "sinhcautb.ictu@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\News\\": ""
+        }
+    },
+    "require": {
+        "joshbrw/laravel-module-installer": "^2.0"
+    }
+}
