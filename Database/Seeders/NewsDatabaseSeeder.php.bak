@@ -109,7 +109,7 @@ class NewsDatabaseSeeder extends Seeder
             [$idPost, 'seo_title', 'text', 'SEO Title', 0, 1, 1, 1, 1, 1, '{}', 5],
             [$idPost, 'excerpt', 'text_area', 'Excerpt', 0, 0, 1, 1, 1, 1, '{}', 6],
             [$idPost, 'body', 'rich_text_box', 'Body', 1, 0, 1, 1, 1, 1, '{}', 7],
-            [$idPost, 'image', 'image', 'Post Image', 0, 1, 1, 1, 1, 1, '{"resize":{"width":"1000","height":"null"},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}', 8],
+            [$idPost, 'image', 'text', 'Post Image', 0, 1, 1, 1, 1, 1, '{"resize":{"width":"1000","height":"null"},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}', 8],
             [$idPost, 'slug', 'text', 'Slug', 1, 0, 1, 1, 1, 1, '{"slugify":{"origin":"title","forceUpdate":true},"validation":{"rule":"unique:posts,slug"}}', 9],
             [$idPost, 'meta_description', 'text', 'Meta Description', 0, 1, 1, 1, 1, 1, '{}', 10],
             [$idPost, 'meta_keywords', 'text', 'Meta Keywords', 0, 1, 1, 1, 1, 1, '{}', 11],
